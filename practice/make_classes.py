@@ -19,6 +19,16 @@ class Shop:
     def show_product(self):
         for p in self.product:
             print(f'{p.name}-----{p.price}')
+
+    def buy_product(self,name):
+
+        for item in self.product:
+            if item.name==name:
+                print('succesfully buy a product')
+                return
+            
+        print('this product not available')
+
 S=Shop()
 
 p1=Product('alu',20)
@@ -29,3 +39,5 @@ S.add_product(p1)
 S.add_product([p2,p3])
 S.add_product({p1,p2,p3})
 S.show_product()
+S.buy_product('alu')
+S.buy_product('aluuuu')
