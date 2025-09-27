@@ -3,4 +3,15 @@ class Animal:
         self.name=name
 
     def sound(self):
-        pass
+        print('Animal sound')
+
+class dog(Animal):
+
+    def sound(self):
+        print('buk buk buk')
+
+class cat(Animal):
+    def sound(self):
+        print('meow meow meow')
+
+
