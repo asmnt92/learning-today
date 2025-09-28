@@ -1,3 +1,4 @@
+# Method Overriding 
 class Animal:
     def __init__(self,name):
         self.name=name
@@ -8,10 +9,10 @@ class Animal:
 class dog(Animal):
 
     def sound(self):
-        print('buk buk buk')
+        print('buk buk buk') # override
 
 class cat(Animal):
     def sound(self):
-        print('meow meow meow')
+        print('meow meow meow') # override
 
 
