@@ -1,0 +1,21 @@
+1. List:
+Create a list of numbers from 1 to 10 and print only the even numbers.
+2. Tuple:
+Given t = (3, 5, 7, 3), count how many times 3 appears.
+3. Set:
+Find the common elements between {1,2,3,4} and {3,4,5,6}.
+4. For Loop:
+Print all numbers from 1 to 20 that are divisible by 3.
+5. Dictionary:
+Create a dictionary of 3 students with their marks, then print the student with
+the highest mark.
+
+7. List & Function:
+Write a function that takes a list and returns a new list with all elements doubled.
+8. Dictionary & Loop:
+Given {'a': 1, 'b': 2, 'c': 3}, write a loop to print keys with even values.
+9. Set & Function:
+Write a function that takes a list and returns a set of unique elements.
+10. Combined Challenge:
+Given a list of dictionaries like [{'name':'Ali','age':20},{'name':'Sara','age':25}], write code to print names of
+people older than 21.
